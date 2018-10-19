@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       labels:
-        app: quickstart-se-1
+        app: quickstart-se-01
         commit: ${WERCKER_GIT_COMMIT}
     spec:
       containers:
